@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
 var username = 'postgres';
 var password = 'ursamajor';
-var host = 'localhost';
+var host = '172.31.13.64';
 var dbName = 'postgres';
 
 var sequelize = new Sequelize(dbName, username, password, {
